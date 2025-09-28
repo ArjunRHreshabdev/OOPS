@@ -1,8 +1,8 @@
 import java.sql.*;
 public class DatabaseConnector {
-    static final String db_url="";
-    static final String username="";
-    static final String password="";
+    static final String db_url="jdbc:mysql://localhost:3306/OOP";
+    static final String username="root";
+    static final String password="Aswin_kb@2005";
     private static volatile DatabaseConnector instance;
 
     private Connection connection;
